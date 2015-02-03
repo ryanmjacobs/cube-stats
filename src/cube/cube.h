@@ -9,4 +9,10 @@
 #ifndef CUBE_H
 #define CUBE_H
 
+typedef struct {
+} cube_t;
+
+cube_t *cube_init(void);
+void cube_free(cube_t *cube);
+
 #endif /* CUBE_H */
