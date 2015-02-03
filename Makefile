@@ -15,6 +15,7 @@ $(EXECUTABLE): $(OBJECTS)
 
 clean:
 	rm -f $(EXECUTABLE)
-	rm -f *.o
+	rm -f src/*.o
+	rm -f src/cube/*.o
 
 .PHONY: install uninstall clean
