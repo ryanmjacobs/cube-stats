@@ -1,3 +1,11 @@
-# Vim
+# Vim!
 .*.swp
 .*.swo
+
+# Data!
+cube-stats.json
+
+# Images!
+*.png
+*.pdf
+*.jpe?g
