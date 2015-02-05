@@ -18,7 +18,11 @@ iterations = ARGV[0].to_i
 abort "error: iterations must be >= 1" if iterations < 1
 
 # moves to scramble each iteration (default 100)
-scramble_moves = ARGV[1].to_i != 0 ? ARGV[1].to_i : 100
+if not ARGV[1] then
+    scramble_moves = 100
+else
+    scramble_moves = ARGV[1].to_i
+end
 
 # create a new cube and a data hash
 data = {
