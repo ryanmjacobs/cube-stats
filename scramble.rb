@@ -1,8 +1,3 @@
-################################################################################
-# scramble.rb
-# See http://shuffle.akselipalen.com/static/shuffle/js/shuffle/model.js
-################################################################################
-
 module Scramble
     extend self
 
