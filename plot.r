@@ -18,8 +18,8 @@ plot(d,
 # mean
 abline(v=m,lty=2,lwd=2,col="red")
 
-text(804, y=0.0032, sprintf("    mean = %0.2f",m),  col="blue")
-text(800, y=0.0030, sprintf("std. dev = %0.2f",sd), col="blue")
+text(754, y=0.0032, sprintf("    mean = %0.1f",m),  col="blue")
+text(750, y=0.0030, sprintf("std. dev = %0.1f",sd), col="blue")
 
 # 1, 2, and 3 std. devs away from mean
 #abline(v=c(m+1*sd,m-1*sd),lty=2,lwd=2,col="blue")
@@ -41,8 +41,8 @@ plot(d,
 # mean
 abline(v=m,lty=2,lwd=2,col="red")
 
-text(8.00, y=0.32, sprintf("    mean = %0.2f",m),  col="blue")
-text(8.01, y=0.30, sprintf("std. dev = %0.2f",sd), col="blue")
+text(7.5, y=0.32, sprintf("    mean = %0.2f",m),  col="blue")
+text(7.5, y=0.30, sprintf("std. dev = %0.2f",sd), col="blue")
 
 # std. dev
 abline(v=c(m+1*sd,m-1*sd),lty=2,lwd=2,col="blue")
